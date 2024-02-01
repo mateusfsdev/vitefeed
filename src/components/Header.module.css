@@ -1,12 +1,18 @@
 .header {
   background: var(--gray-800);
   display: flex;
-  justify-content: center;
-  padding: 1.25rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.25rem ;
 
 }
 
-.header img {
-  height: 2rem;
+
+.header h1 {
+  text-shadow:
+  var(--red-100) 0px 0px 15px,
+  var(--red-100) 0px 0px 15px,
+  var(--red-500) 0px 0px 15px, -15px -10px 15px
+  rgba(0, 0, 0, 0);
 }
 

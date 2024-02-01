@@ -28,19 +28,19 @@ export function Sidebar() {
   
       <nav className={styles.links}>
         <a href="/">
-          <img className={styles.about} src={about} alt="" />
+          <img className={styles.about} src={about} alt="about" />
         </a>
         <a href="https://github.com/mateusfsdev" target='_blank'>
-          <img className={styles.git} src={github} alt="" />
+          <img className={styles.git} src={github} alt="github" />
         </a>
         <a href="https://www.linkedin.com/in/mateus-felipe-70b49611a/ " target='_blank'>
-          <img className={styles.link} src={link} alt="" />
+          <img className={styles.link} src={link} alt="linkedin" />
         </a>
         <a href="/projects" target='_blank'>
-          <img className={styles.pro} src={pro} alt="" />
+          <img className={styles.pro} src={pro} alt="projects" />
         </a>
       </nav>
-      <span>techhnologias mais usadas:</span>
+      <span>tecnologias mais usadas:</span>
       </div>
 
       <section className={styles.tech}>
