@@ -1,5 +1,10 @@
-import { PencilLine } from 'phosphor-react'
+import { Chats } from 'phosphor-react'
 import { Avatar } from './Avatar';
+import html from '../assets/htmltech.png'
+import js from '../assets/javascript.png'
+import css from '../assets/csstech.png'
+import reactjs from '../assets/reacttech.png'
+import vite from '../assets/vitetech.png'
 
 import styles from './Sidebar.module.css'
 
@@ -15,13 +20,22 @@ export function Sidebar() {
         <Avatar  src='https://github.com/mateusfsdev.png' />
 
         <strong>Mateus F Dev</strong>
-        <span>Mobile Developer</span>
+        <span>Developer frontend ㊗㊙</span><br />
+        <span>techhnologias mais usadas:</span>
       </div>
 
+      <section className={styles.tech}>
+        <img className={styles.html} src={html}alt="" />
+        <img className={styles.css} src={css} alt="" />
+        <img className={styles.js} src={js} alt="" />
+        <img className={styles.vite} src={vite} alt="" />
+        <img className={styles.react} src={reactjs} alt="" />    
+      </section>
+
       <footer>
-        <a href="#">
-          <PencilLine size={20} />
-          Editar seu perfil
+        <a href="malito:mateusfdev@outlook.com">
+          <Chats size={20} />
+          Enviar E-mail
         </a>
       </footer>
     </aside>
