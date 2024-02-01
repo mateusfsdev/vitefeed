@@ -34,12 +34,13 @@
 }
 
 .links img{
-    margin: 5px;
+    margin: 1.20rem;
     width: 2.25rem;
     border: none;
   }
   .links img:hover {
     transform: scale(1.1);
+    filter: drop-shadow(0 0 0.5em #eeeeee71);
 }
   
 
