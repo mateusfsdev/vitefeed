@@ -33,14 +33,22 @@
   
 }
 
+.links img{
+    margin: 5px;
+    width: 2.25rem;
+    border: none;
+  }
+  .links img:hover {
+    transform: scale(1.1);
+}
+  
+
 .tech {
   display: flex;
   justify-content: center;
 }
-
 .tech img{ 
-  margin-top: 1rem;
-  width: 4rem;
+  width: 3.5rem;
 
   &:hover {
     transform: scale(1.1);  

@@ -5,6 +5,10 @@ import js from '../assets/javascript.png'
 import css from '../assets/csstech.png'
 import reactjs from '../assets/reacttech.png'
 import vite from '../assets/vitetech.png'
+import  link from '../assets/linkedin.svg'
+import  github from '../assets/github.svg'
+import  about from '../assets/about.svg'
+import  pro from '../assets/projects.svg'
 
 import styles from './Sidebar.module.css'
 
@@ -20,8 +24,23 @@ export function Sidebar() {
         <Avatar  src='https://github.com/mateusfsdev.png' />
 
         <strong>Mateus F Dev</strong>
-        <span>Developer frontend ㊗㊙</span><br />
-        <span>techhnologias mais usadas:</span>
+        <span>Developer frontend ㊗㊙</span>
+  
+      <nav className={styles.links}>
+        <a href="/">
+          <img className={styles.about} src={about} alt="" />
+        </a>
+        <a href="https://github.com/mateusfsdev" target='_blank'>
+          <img className={styles.git} src={github} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/mateus-felipe-70b49611a/ " target='_blank'>
+          <img className={styles.link} src={link} alt="" />
+        </a>
+        <a href="/projects" target='_blank'>
+          <img className={styles.pro} src={pro} alt="" />
+        </a>
+      </nav>
+      <span>techhnologias mais usadas:</span>
       </div>
 
       <section className={styles.tech}>
