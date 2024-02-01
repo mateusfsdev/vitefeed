@@ -1,11 +1,11 @@
-import styles from './Tweed.module.css'
+import styles from './Fanfuria.module.css'
 
 
-export function Tweed() {
+export function Fanfuria() {
   return (
   <div className={styles.wrapper}>
     <div className={styles.container}>
-      <h1>tWeed</h1>
+      <h1>Fanfuria</h1>
     </div>
 
   </div>
