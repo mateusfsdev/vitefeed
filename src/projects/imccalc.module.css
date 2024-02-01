@@ -1,15 +1,15 @@
-
 .wrapper {
   width: 316px;
   height: auto;
   background: var(--gray-800);
   border-radius: 16px;
   margin-top: 1.5rem;
-
 }
 
 
 button {
+
+
   width: 3.5rem;
   height: 3.5rem;
   margin: 0.7rem;
@@ -18,8 +18,9 @@ button {
   color: var(--gray-200);
   border-radius: 50%;
 }
-
 .double{
+  margin-top: 2rem;
+  margin-left: 5rem;
   color: var(--gray-100);
   background: var(--gray-600);
   width: 8rem;
@@ -28,18 +29,8 @@ button {
   font-weight: bold;
   font-size: 1.2rem;
 }
-.double:hover {
-  filter: drop-shadow(0 0 0.5em #ffffff28);
 
-}
 
-input .value {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--gray-800) ;
-
-}
 .result{
   display: flex;
   align-items: center;
@@ -49,4 +40,19 @@ input .value {
   padding: 1rem;
   background: var(--gray-900);
   border-radius: 16px;
+}
+
+input {
+  background: var(--gray-700);
+  border: none;
+  border-radius: 8px;
+  height: 2rem;
+  margin-top: .5rem;
+  margin-left: 6rem;
+  padding: .5rem;
+  color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border: 0px solid;
 }

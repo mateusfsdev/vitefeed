@@ -1,33 +1,34 @@
 import { useState } from 'react'
-import styles from './Calc.module.css'
+import styles from './Imccalc.module.css'
 
 export default function Calculator() {
-  const [weight, setWeight] = useState(0)
-  const [height, setHeight] = useState(0)
-  const [ result, setResult] = useState(0)
+  const [weight, setWeight] = useState("")
+  const [height, setHeight] = useState("")
+  const [ result, setResult] = useState('...')
 
   const calculateImc = () => {
-    const imc = weight / (height * height)
+    const imc = +weight / (+height * +height)
     const formatedImc = imc.toFixed(2)
-    setResult(+formatedImc)
-
+    setResult(formatedImc)
   }
+
+
   return (
     <div className={styles.wrapper}>
       <br/>
-      <h1 className={styles.result}>{result}</h1>
+      <h1 className={styles.result}>seu IMC é {result}</h1>
+      
       <input
-      className={styles.value}
+      title=''
       type="number" value={weight}
       placeholder='Digite seu peso'
-      onChange={(e) => setWeight (+e.target.value)}
+      onChange={(e) => setWeight (e.target.value)}
       />
 
       <input
-      className={styles.value}
       type="number" value={height}
       placeholder='Digite sua altura'
-      onChange={(e) => setHeight (+e.target.value)}
+      onChange={(e) => setHeight (e.target.value)}
       />
 
       <button

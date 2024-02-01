@@ -4,6 +4,7 @@
   border-radius: 8px;
   padding: 2.5rem;
  
+  margin-top: 1rem;
 }
 
 .content {
@@ -13,7 +14,6 @@
  }
  
  .content p {
-   margin-top: 1rem;
  
  }
  
