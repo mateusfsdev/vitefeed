@@ -1,0 +1,19 @@
+.main{
+  width: 100%;
+  background: var(--gray-800);
+  border-radius: 8px;
+  padding: 2.5rem;
+ 
+}
+
+.content {
+  line-height: 1.6;
+  color: var(--gray-300);
+ 
+ }
+ 
+ .content p {
+   margin-top: 1rem;
+ 
+ }
+ 
