@@ -6,6 +6,8 @@ export default function Calculator() {
   const[oldNumb, setoldNumb]=useState(0)
   const[operator, setOperator]=useState()
 
+
+
   function inputNumb(e) {
     var input = e.target.value;
     if(numb === 0){

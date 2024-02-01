@@ -1,18 +1,14 @@
 .wrapper {
-
-  margin: 2rem;
-  width: 560px;
-  height: 540px;
-  padding:2.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  width: auto;
+  height: 600px;
+  align-items: center;
+  justify-content: space-around;
   border-radius: 8px;
-  background-color: var(--gray-800);
+  background-color:var(--gray-900);
   background-image: linear-gradient(315deg, var(--gray-800) 0%, var(--gray-700) 74%);
 }
 
-.content {
-  line-height: 1.6;
-  color: var(--gray-300);
- 
- }
 
  
