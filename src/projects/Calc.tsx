@@ -35,13 +35,13 @@ export default function Calculator() {
   }
   function calc(){
     if(operator == '/') {
-      setNumb(oldNumb / numb)
+      setNumb(+oldNumb / +numb)
     }else if(operator == '*') {
-      setNumb(oldNumb * numb)
+      setNumb(+oldNumb * +numb)
     }else if(operator == '-') {
-      setNumb(oldNumb - numb)
+      setNumb(+oldNumb - +numb)
     }else if(operator == '+') {
-      setNumb(oldNumb + numb)
+      setNumb(+oldNumb + +numb)
     }
 
   }

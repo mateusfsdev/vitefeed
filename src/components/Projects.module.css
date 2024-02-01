@@ -1,7 +1,19 @@
-.wrapper {
+.wrappergrid {
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 2rem;
+  width: auto;
+  height: 600px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  background-color:var(--gray-900);
+  background-image: linear-gradient(315deg, var(--gray-800) 0%, var(--gray-700) 74%);
+}
+.wrapper {
+  margin-top: 1.5rem;
+  display: flex;
   padding: 2rem;
   width: auto;
   height: 600px;

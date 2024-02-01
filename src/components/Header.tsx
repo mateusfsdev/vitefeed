@@ -5,7 +5,7 @@ export function Header() {
   return (
   <header className={styles.header}>
 
-      <h1>Mateus Sant'ana Portify</h1>
+      <h1>PortifyFeed</h1>
   </header>
   )
 }

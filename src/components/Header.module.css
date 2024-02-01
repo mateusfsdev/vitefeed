@@ -9,6 +9,8 @@
 
 
 .header h1 {
+  font-weight: bold;
+  color: var(--gray-800);
   text-shadow:
   var(--red-100) 0px 0px 15px,
   var(--red-100) 0px 0px 15px, -15px -10px 15px
