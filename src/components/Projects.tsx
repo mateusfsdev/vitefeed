@@ -1,7 +1,7 @@
 
-import { Discord } from '../projects/Discord';
 import { Fanfuria } from '../projects/Fanfuria';
 import { Pokedex } from '../projects/Pokedex';
+import { Discord } from '../projects/Discord';
 import { Timer } from '../projects/Timer';
 import { Tweed } from '../projects/Tweed';
 

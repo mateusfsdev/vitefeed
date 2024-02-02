@@ -56,3 +56,6 @@ input {
   justify-content: end;
   border: 0px solid;
 }
+input:focus {
+  outline: 1px solid var(--red-500);
+}

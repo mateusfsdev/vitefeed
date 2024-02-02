@@ -1,29 +1,13 @@
 
+import { Home } from './pages/Home/index.home'
+import { Skills } from './pages/skills/index.skills'
+import { Contact } from './pages/contact/index.contact'
 
-import { Sidebar } from './components/Sidebar'
-import { Header } from './components/Header'
-import { Main } from './components/Main'
-
-
-import styles from './App.module.css'
 import './global.css'
-import Projects from './components/Projects'
 
 export function App() {
   return (
-    <div>
-      <Header />
-      <div className={styles.wrapper}>
-        <Sidebar/>
-        <main>
-          <Main />
-          <Projects />
-        </main>
-        <footer>
-          
-        </footer>
-      </div>
-    </div>
+    <Home />
   )
 }
 
