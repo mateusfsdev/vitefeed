@@ -8,6 +8,7 @@ import { Main } from '../../components/Main'
 import styles from './skills.module.css'
 import '../../global.css'
 import Projects from '../../components/Projects'
+import { Footer } from '../../components/Footer'
 
 
 export function Skills() {
@@ -20,10 +21,8 @@ export function Skills() {
           <Main />
           <Projects/>
         </main>
-        <footer>
-          
-        </footer>
       </div>
+      <Footer/>
     </div>
   )
 }

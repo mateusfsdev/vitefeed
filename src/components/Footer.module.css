@@ -1,0 +1,25 @@
+*{
+  align-items: end;
+}
+
+.wrapper {
+  background: var(--gray-800);
+  display: flex;
+  width: auto;
+  justify-content: center;
+  margin-top: 6rem;
+  height: 7rem;
+  align-items: center;
+  padding: 1.25rem ;
+
+}
+
+
+.wrapper p {
+  color: var(--gray-400);
+}
+.wrapper a {
+  font-weight: 500;
+}
+
+

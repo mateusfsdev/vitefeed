@@ -7,6 +7,7 @@ import { Header } from '../../components/Header'
 
 import styles from './contact.module.css'
 import '../../global.css'
+import { Footer } from '../../components/Footer'
 
 
 
@@ -22,6 +23,7 @@ export function Contact() {
         </main>  
    
       </div>
+      <Footer/>
     </div>
   )
 }

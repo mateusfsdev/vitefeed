@@ -11,7 +11,7 @@ export function User() {
 
       <input className={styles.cap} type="email" placeholder='Digite seu E-mail' />
       <input className={styles.cap} type="text" placeholder='Digite o assunto' />
-      <input className={styles.capgg}type="text" placeholder='...mais' />
+      <input className={styles.capgg}type="text" placeholder='escreve um breve resumo sobre suas ideias de apps' />
 
       <a className={styles.malito}href="mateusfdev@outlook.com">
         Enviar

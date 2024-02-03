@@ -37,6 +37,7 @@ input  {
     outline: 1px solid var(--red-500);
   }
   .capgg{
+
     width: 75%;
     min-height: 175px ;
     margin-bottom: 3rem;
