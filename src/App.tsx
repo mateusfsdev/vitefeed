@@ -1,13 +1,14 @@
 
-import { Home } from './pages/Home/index.home'
-import { Skills } from './pages/skills/index.skills'
-import { Contact } from './pages/contact/index.contact'
 
+import { BrowserRouter } from 'react-router-dom'
 import './global.css'
+import { Router } from './router.tsx'
 
 export function App() {
   return (
-    <Contact />
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
