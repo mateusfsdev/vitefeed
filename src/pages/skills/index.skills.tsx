@@ -1,6 +1,4 @@
 
-
-import { Sidebar } from '../../components/Sidebar'
 import { Header } from '../../components/Header'
 import { Main } from '../../components/Main'
 
@@ -16,7 +14,7 @@ export function Skills() {
     <div>
       <Header />
       <div className={styles.wrapper}>
-        <Sidebar/>
+
         <main>
           <Main />
           <Projects/>

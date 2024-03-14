@@ -16,7 +16,7 @@ export function About(){
         <p>bom, tenho 27 anos e migrei da area logistica industrial a dois anos com um foco em frontend e mobile, atualmente estudando Nodejs e Reative Native. </p>
         <br />
         <p>Conheça um pouco mais do meus trabelhos na area de projetos que esta disponivel clicando
-          <a href="/projects"> aqui ⚡ </a>
+          <a href="/projetos"> aqui ⚡ </a>
         </p>
         <br />
         

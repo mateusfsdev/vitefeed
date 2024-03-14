@@ -38,7 +38,7 @@ export function Sidebar() {
         <a href="https://www.linkedin.com/in/mateus-felipe-70b49611a/ " target='_blank'>
           <img className={styles.link} src={link} alt="linkedin" />
         </a>
-        <a href="/projects" target='_blank'>
+        <a href="/projetos" target='_blank'>
           <img className={styles.pro} src={pro} alt="projects" />
         </a>
       </nav>
@@ -54,7 +54,7 @@ export function Sidebar() {
       </section>
 
       <footer>
-        <a href="malito:mateusfdev@outlook.com">
+        <a href="/contato">
           <Chats size={20} />
           Enviar E-mail
         </a>

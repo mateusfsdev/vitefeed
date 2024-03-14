@@ -5,7 +5,9 @@ export function Header() {
   return (
   <header className={styles.header}>
 
-      <h1>PortifyFeed</h1>
+      <a href="/">
+        <h1>PortifyFeed</h1>
+      </a>
   </header>
   )
 }
