@@ -9,6 +9,12 @@
   align-items: flex-start;
 }
 
+main,
+Projects {
+  margin: 1rem;
+}
+
+
 @media (max-width: 800px) {
 
   html {
