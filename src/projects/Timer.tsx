@@ -9,7 +9,7 @@ export function Timer() {
     <div className={styles.countdown}>
       <span>0</span>
       <span>1</span>
-      <div>:</div>
+      <div> : </div>
       <span>0</span>
       <span>0</span>
     </div>

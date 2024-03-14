@@ -11,6 +11,7 @@ import '../../global.css'
 import { About } from '../../components/About'
 import Projects from '../../components/Projects'
 import { User } from '../../components/User'
+import { SkillsTools } from '../../components/Skills'
 
 
 export function Home() {
@@ -22,6 +23,7 @@ export function Home() {
           <About />      
       </div>
       <main>
+        <SkillsTools/>
       <Projects/>
         <User/>
       </main>

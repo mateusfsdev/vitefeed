@@ -7,6 +7,7 @@ import styles from './skills.module.css'
 import '../../global.css'
 import Projects from '../../components/Projects'
 import { Footer } from '../../components/Footer'
+import { SkillsTools } from '../../components/Skills'
 
 
 export function Skills() {
@@ -15,10 +16,10 @@ export function Skills() {
       <Header />
       <div className={styles.wrapper}>
 
-        <main>
           <Main />
+          <SkillsTools/>
           <Projects/>
-        </main>
+
       </div>
       <Footer/>
     </div>

@@ -1,0 +1,44 @@
+
+.box  {
+
+  height: 12rem;
+  width: auto;
+  margin: 2px;
+  background: var(--gray-800);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  
+  flex-direction: column;
+
+}
+.tech {
+  display: flex;
+  justify-content: center;
+}
+.tech img{ 
+  width: 8rem;
+
+  &:hover {
+    transform: scale(1.1);  
+    &.html:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 0.5em #d37306bd);
+    }
+    &.css:hover { 
+      filter: drop-shadow(0 0 0.5em #0647d3bd);
+    }
+    &.js:hover { 
+      filter: drop-shadow(0 0 0.5em #c5d306bd);
+    }
+    &.vite:hover { 
+      filter: drop-shadow(0 0 0.5em #9206d3bd);
+    }
+    &.react:hover { 
+      filter: drop-shadow(0 0 0.5em #0692d3bd);
+    }
+  }
+}
