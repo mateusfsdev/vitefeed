@@ -16,8 +16,8 @@ export function Skills() {
       <Header />
       <div className={styles.wrapper}>
 
-          <Main />
           <SkillsTools/>
+          <Main />
           <Projects/>
 
       </div>
